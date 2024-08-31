@@ -16,18 +16,8 @@
 
 
 
- [TOC] 
-
 ## 1、功能概述
-![图片描述]('')
-![通讯录](https://github.com/boai/BAHMWeChat/blob/main/images/通讯录.png)
-
-![发现](https://github.com/boai/BAHMWeChat/blob/main/images/发现.png)
-
-![朋友圈](https://github.com/boai/BAHMWeChat/blob/main/images/朋友圈.png)
-
-![个人中心](https://github.com/boai/BAHMWeChat/blob/main/images/个人中心.png)
-
+![功能](https://github.com/qiji-w/BAHMWeChat/blob/master/images/wx.gif)
 
 
 ## 2、工程结构模型
