@@ -1,0 +1,17 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+**/oh-package-lock.json5
+/hvigor/hvigor-wrapper.js
+**/BuildProfile.ets
+/dependencies
+/Features/**/src/main/ets/generated
+/Features/**/src/main/resources/rawfile/routerMap

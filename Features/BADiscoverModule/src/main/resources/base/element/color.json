@@ -1,0 +1,12 @@
+{
+  "color": [
+    {
+      "name": "list_divider",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "list_background",
+      "value": "#FFFFFF"
+    }
+  ]
+}

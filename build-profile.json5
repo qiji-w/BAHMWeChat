@@ -1,0 +1,59 @@
+{
+  "app": {
+    "signingConfigs": [],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./Product/entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BAHomeModule",
+      "srcPath": "./Features/BAHomeModule",
+    },
+    {
+      "name": "baminemodule",
+      "srcPath": "./Features/BAMineModule",
+    },
+    {
+      "name": "BACommonModule",
+      "srcPath": "./Features/BACommonModule",
+    },
+    {
+      "name": "badiscovermodule",
+      "srcPath": "./Features/BADiscoverModule"
+    },
+    {
+      "name": "baaddressbookmodule",
+      "srcPath": "./Features/BAAddressBookModule",
+    },
+    {
+      "name": "BARouterModule",
+      "srcPath": "./Features/BARouterModule",
+    }
+  ]
+}

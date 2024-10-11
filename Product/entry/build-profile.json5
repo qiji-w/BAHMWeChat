@@ -1,0 +1,54 @@
+{
+  "apiType": "stageMode",
+  "buildOption": {
+    "arkOptions": {
+      "runtimeOnly": {
+        "sources": [
+        ],
+        "packages": [
+          "@ohos/bacommonmodule",
+          "@ohos/dynamicsrouter",
+          "@ohos/bahomemodule",
+          "@ohos/baaddressbookmodule",
+          "@ohos/badiscovermodule",
+          "@ohos/baminemodule"
+        ]
+      }
+    }
+  },
+  "buildOptionSet": [
+    {
+      "name": "release",
+      "arkOptions": {
+        "obfuscation": {
+          "ruleOptions": {
+            "enable": true,
+            "files": [
+              "./obfuscation-rules.txt"
+            ]
+          }
+        },
+//        "runtimeOnly": {
+//          "sources": [
+//          ],
+//          "packages": [
+//            "@ohos/bacommonmodule",
+//            "@ohos/dynamicsrouter",
+//            "@ohos/bahomemodule",
+//            "@ohos/baaddressbookmodule",
+//            "@ohos/discovermodule",
+//            "@ohos/baminemodule"
+//          ]
+//        }
+      }
+    },
+  ],
+  "targets": [
+    {
+      "name": "default"
+    },
+    {
+      "name": "ohosTest",
+    }
+  ]
+}

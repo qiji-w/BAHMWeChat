@@ -1,0 +1,17 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "qiji",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ohos/bacommonmodule": "file:../../Features/BACommonModule",
+    "@ohos/dynamicsrouter": "file:../../Features/BARouterModule",
+    "@ohos/bahomemodule": "file:../../Features/BAHomeModule",
+    "@ohos/baaddressbookmodule": "file:../../Features/BAAddressBookModule",
+    "@ohos/badiscovermodule": "file:../../Features/BADiscoverModule",
+    "@ohos/baminemodule": "file:../../Features/BAMineModule"
+  }
+}
+
